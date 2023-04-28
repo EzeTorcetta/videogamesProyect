@@ -1,0 +1,32 @@
+
+.landing {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: 35px;
+    color: white;
+    background-color: #080868;
+    box-shadow: 9px 9px 98px 9px rgb(51, 19, 209);
+    width: 600px;
+    height: 150px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 24%;
+    
+}
+button:hover {
+    background-color: #220868;
+    cursor: pointer;
+    box-shadow: 9px 9px 98px 9px rgba(184, 19, 209, 0.672);
+}

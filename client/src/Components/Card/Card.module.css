@@ -1,0 +1,30 @@
+.card{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 490px;
+    border:0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+}
+.card:hover{
+    box-shadow: 9px 9px 98px 9px rgba(184, 19, 209, 0.672);
+    background-color: rgba(0, 0, 0, 0);
+    background-blend-mode: multiply;
+}
+
+h2{
+  color: rgb(255, 218, 9);  
+  background-color: rgba(11, 11, 11, 0.848);
+  margin: 0;
+}
+h3{
+  color: rgb(255, 218, 9);  
+  background-color: rgba(11, 11, 11, 0.848);
+  margin-top: 400px;
+}
+
+.link{
+  text-decoration: none;
+}

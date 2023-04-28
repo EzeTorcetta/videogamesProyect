@@ -1,0 +1,43 @@
+.cardsContainer {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    overflow-y: auto;
+}
+
+.cards {
+    
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.pagination{
+    background-color: rgba(11, 11, 11, 0.848);
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    padding: 2px;
+    border-radius: 3px;
+    border: 2px solid  rgb(255, 218, 9);  
+  }
+
+  .buttonPag {
+    font-weight: bold;
+    font-size: medium;
+    background-color:rgba(0, 0, 0, 0.824) ;
+    border: 1px solid  rgb(255, 218, 9);  
+    color: white;
+  }
+  .buttonPag:hover {
+    background-color:rgba(255, 102, 0, 0.824) ;
+  }
+
+  .buttonPag.active{
+    text-decoration: underline;
+  }
