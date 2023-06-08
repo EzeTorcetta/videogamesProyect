@@ -1,5 +1,5 @@
 #Use a Node.js base image
-FROM node:14
+FROM node:18.12.1
 
 
 #Copy the rest of the application code to the working directory
